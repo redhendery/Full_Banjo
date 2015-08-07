@@ -8,8 +8,31 @@ body {
 
 #wrapper {
   max-width: 940px;
+  color: black;
   margin: 0 auto;
   padding: 0 5%;
+}
+
+#links {
+  color: black;
+  float: center;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Monofett', cursive;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: center;
+}
+
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  float: center;
 }
 
 a {
@@ -36,19 +59,14 @@ HEADING
 
 header {
   float: left;
+  font-family: 'Monofett', cursive;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-}
-
-#logo {
-  float: center;
-  text-align: center;
-  margin: 0;
+  display: block;
 }
 
 h1 {
-  font-family: 'Berkshire Swash', cursive;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -79,7 +97,7 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  display: inline;
 }
 
 nav a {
@@ -120,7 +138,6 @@ PAGE: PORTFOLIO
   float: middle;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
@@ -133,29 +150,18 @@ PAGE: PORTFOLIO
 
 
 /******************
-PAGE: ABOUT
-******************/
-
-.profile-photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
-/******************
 PAGE: CONTACT
 ******************/
 
 .contact-info {
   list-style: none;
-  padding: 0;
+  padding: 5px 0 5px 0;
   margin: 0;
   font-size: 0.9em;
 }
 
 .contact-info a {
-  display: block;
+  display: inline;
   min-height: 20px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
@@ -163,25 +169,21 @@ PAGE: CONTACT
   margin: 0 0 10px;
 }
 
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
-}
-
 /******************
 PAGE: WHO WE ARE
 ******************/
 
 #people {
-  float: middle;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+  color: black;
+  Padding: 25px 0 0 0;
+  background-color: #fff;
+  text-align: justify;
+}
 
+#people h3 {
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.25em;
+}
 
 /******************
 COLOURS
@@ -195,7 +197,9 @@ body {
 
 header {
  background:  #6ab47b;
-  border-color: #599a68;
+ border-color: #599a68;
+ font-size: 2em;
+ text-decoration: bold;
 }
 
 h1, h2 {
