@@ -4,6 +4,7 @@ GENERAL
 
 body p {
   font-family: 'Open Sans', sans-serif;
+  padding: 0;
 }
 
 #wrapper {
@@ -14,7 +15,6 @@ body p {
 }
 
 #links {
-  color: black;
   float: center;
   text-decoration: none;
   list-style: none;
@@ -25,7 +25,8 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  float: center;
+  text-align: center;
+  padding: 0 0 15px 0;
 }
 
 li {
@@ -46,6 +47,8 @@ a {
 }
 
 img {
+  width: 1920px;
+  height: 350px;
   max-width: 100%;
 }
 
@@ -59,11 +62,10 @@ HEADING
 ******************/
 
 header {
-  float: left;
+  float: center;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  display: block;
 }
 
 h1 {
@@ -130,7 +132,7 @@ PAGE: PORTFOLIO
 
 #gallery {
   margin: 0;
-  padding: 0;
+  padding: 30px 0 0 0;
   list-style: none;
 }
 
@@ -199,16 +201,12 @@ body {
   color: #999;
 }
 
-header {
- background:  #6ab47b;
- border-color: #599a68;
- font-size: 2em;
- text-decoration: bold;
-}
+
 
 h1, h2 {
   color: #6ab47b;
-  text-align: centre
+  text-align: center;
+  font-size: 1.75em;
 }
 
 nav {
