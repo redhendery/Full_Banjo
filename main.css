@@ -12,13 +12,14 @@ body p {
   color: black;
   margin: 0 auto;
   padding: 0 5%;
+  text-align: justify;
 }
 
 #links {
-  float: center;
-  text-decoration: none;
-  list-style: none;
   font-family: 'Monofett', cursive;
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -33,7 +34,7 @@ li {
   display: inline;
   margin: 0;
   padding: 0;
-  float: center;
+  text-align: justify;
 }
 
 a {
@@ -52,17 +53,11 @@ img {
   max-width: 100%;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-  padding: 30px 0 0 0;
-
-}
 /******************
 HEADING
 ******************/
 
 header {
-  float: center;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
@@ -132,25 +127,50 @@ PAGE: PORTFOLIO
 
 #gallery {
   margin: 0;
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
   list-style: none;
 }
 
 
 #gallery li {
-  float: middle;
-  width: 45%;
-  margin: 2.5%;
-  color: #bdc3c7;
+  color: black;
 }
 
 #gallery li a p {
-  margin: 0;
-  padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+  text-align: justify;
 }
 
+#gallery h3 {
+  font-family: 'Nosifer', cursive;
+  color: red;
+  text-align: justify;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+#gallery1 h3 {
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  font-size: 2em;
+  text-align: justify;
+}
+
+#gallery1 p {
+  text-align: justify;
+}
+
+#gallery2 h3 {
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  font-size: 2em;
+  text-align: justify;
+}
+
+#gallery2 p {
+  text-align: justify;
+}
 
 /******************
 PAGE: CONTACT
@@ -180,7 +200,7 @@ PAGE: WHO WE ARE
 
 #people {
   color: black;
-  Padding: 25px 0 0 0;
+  Padding: 0;
   background-color: #fff;
   text-align: justify;
 }
@@ -189,6 +209,14 @@ PAGE: WHO WE ARE
   font-family: 'Black Ops One', cursive;
   font-size: 1.25em;
   padding: 0;
+  color: black;
+}
+
+#people p {
+   color: black;
+  Padding: 0;
+  background-color: #fff;
+  text-align: justify;
 }
 
 /******************
